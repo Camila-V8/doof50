@@ -1,0 +1,1049 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro:ital,wght@0,600;1,600&family=ZCOOL+KuaiLe&display=swap');
+
+/* XX-Large  (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 90px;
+	text-shadow: 5px 5px 5px #242917;
+	width: 1080px;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+}
+
+nav {
+	width: 1080px;
+	height: 50px;
+	background-color: #3F5B0E;
+
+}
+
+#menu ul {
+	padding-top: 15px;
+	padding-left: 150px;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	font-size: 25px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	padding: 15px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#datos {
+	background-color: #B9DE5B;
+	width: 100%;
+	height: 100px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#datos h1 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+}
+
+#Relevamiento {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 300px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#Relevamiento h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+#Relevamiento img {
+	padding-left: 600px;
+	margin-top: -200px;
+}
+
+
+#paleta2 {
+	display: none;
+}
+
+#Relevamiento a {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	margin-left: 40px;
+}
+
+
+#Diseño {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 600px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#Diseño h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+
+#titulos {
+	background-color: #ffffff;
+	padding: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 22px;
+
+}
+
+#Texto {
+	background-color: #DBF48E;
+	padding: 40px;
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#Diseño img {
+	margin-left: 600px;
+	margin-top: -450px;
+}
+
+#paleta {
+	display: none;
+}
+
+#Galeria {
+	width: 100%;
+	background-color: #B9DE5B;
+	padding: 2px;
+	height: 600px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	overflow: auto;
+}
+#Galeria h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+#imagenes {
+	margin-left: 250px;
+}
+
+footer {
+
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 20px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding-left: 460px;
+	margin-top: -50px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 10px;
+	filter: invert ;
+}
+
+#serie {
+	padding-left: 900px;
+	margin-top: -50px;
+}
+}
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){ 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 90px;
+	text-shadow: 5px 5px 5px #242917;
+	width: 1080px;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+}
+
+nav {
+	width: 1080px;
+	height: 50px;
+	background-color: #3F5B0E;
+
+}
+
+#menu ul {
+	padding-top: 15px;
+	padding-left: 150px;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	font-size: 25px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	padding: 15px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#datos {
+	background-color: #B9DE5B;
+	width: 100%;
+	height: 100px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#datos h1 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+}
+
+#Relevamiento {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 300px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#Relevamiento h1 {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 40px;
+}
+
+#Relevamiento img {
+	margin-left: 600px;
+	margin-top: -200px;
+}
+#paleta2 {
+	display: none;
+}
+
+#Relevamiento a {
+	font-size: 28px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding-left: 100px;
+}
+
+
+#Diseño {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 600px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#Diseño h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+
+#titulos {
+	background-color: #ffffff;
+	padding: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 22px;
+
+}
+
+#Texto {
+	background-color: #DBF48E;
+	padding: 40px;
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#Diseño img {
+	margin-left: 600px;
+	margin-top: -450px;
+}
+
+#paleta {
+	display: none;
+}
+
+#Galeria {
+	width: 100%;
+	background-color: #B9DE5B;
+	padding: 2px;
+	height: 600px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	overflow: auto;
+}
+#Galeria h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+#imagenes {
+	margin-left: 230px;
+}
+
+footer {
+
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 20px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding-left: 400px;
+	margin-top: -50px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 10px;
+	filter: invert ;
+}
+
+#serie {
+	padding-left: 800px;
+	margin-top: -40px;
+}
+}
+
+/* Large  ( desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){ 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 70px;
+	text-shadow: 5px 5px 5px #242917;
+	width: 100%;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+nav {
+	width: 900px;
+	height: 50px;
+	background-color: #3F5B0E;
+
+}
+
+#menu ul {
+	padding-top: 15px;
+	padding-left: 150px;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	font-size: 25px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	padding: 15px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#datos {
+	background-color: #B9DE5B;
+	width: 100%;
+	height: 100px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#datos h1 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+}
+
+#Relevamiento {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 300px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#Relevamiento h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 40px;
+}
+
+#Relevamiento img {
+	padding-left: 500px;
+	margin-top: -200px;
+}
+
+
+#Relevamiento a {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	margin-left: 40px;
+}
+
+
+
+#Diseño {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 600px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#Diseño h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+#paleta2 {
+	display: none;
+}
+
+
+#titulos {
+	background-color: #ffffff;
+	padding: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 22px;
+
+}
+
+#Texto {
+	background-color: #DBF48E;
+	padding: 40px;
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#Diseño img {
+	margin-left: 450px;
+	margin-top: -450px;
+}
+
+#paleta {
+	display: none;
+}
+
+#Galeria {
+	width: 90%;
+	background-color: #B9DE5B;
+	padding: 2px;
+	height: 600px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	overflow: auto;
+	padding-left: 80px;
+}
+#Galeria h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+#imagenes {
+	margin-left: 100px;
+}
+
+footer {
+
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 20px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding-left: 350px;
+	margin-top: -50px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 10px;
+	filter: invert ;
+}
+
+#serie {
+	padding-left: 700px;
+	margin-top: -40px;
+}
+}
+
+/* Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 90px;
+	text-shadow: 5px 5px 5px #242917;
+	width: 700px;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+nav {
+	width: 700px;
+	height: 50px;
+	background-color: #3F5B0E;
+
+}
+
+#menu ul {
+	padding-top: 15px;
+	padding-left: 100px;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	font-size: 18px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	padding: 15px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#datos {
+	background-color: #B9DE5B;
+	width: 100%;
+	height: 80px;
+	padding: 1px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#datos h1 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+}
+
+#Relevamiento {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 200px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	margin-left: 150px;
+}
+
+#Relevamiento h1 {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 20px;
+}
+
+#Relevamiento img {
+	display: none;
+}
+#paleta2 {
+	display: none;
+}
+
+#Relevamiento a {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	margin-left: 70px;
+}
+
+
+#Diseño {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 500px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	margin-left: 150px;
+}
+
+#Diseño h1 {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+
+#titulos {
+	background-color: #ffffff;
+	padding: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 16px;
+
+}
+
+#Texto {
+	background-color: #DBF48E;
+	padding: 40px;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#Diseño img {
+	display: none;
+}
+
+#paleta {
+	margin-left: 130px;
+}
+
+#Galeria {
+	width:98%;
+	background-color: #B9DE5B;
+	padding: 2px;
+	height: 500px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	overflow: auto;
+}
+#Galeria h1 {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+#imagenes {
+	padding-left: 10px;
+}
+
+footer {
+
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 20px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-left: 230px;
+	margin-top: -50px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 10px;
+	filter: invert ;
+}
+
+#serie {
+	margin-left: 500px;
+	margin-top: -40px;
+}
+}
+
+/* Small  (mobile, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px){ 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 90px;
+	text-shadow: 5px 5px 5px #242917;
+	width: 600px;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+nav {
+	width: 600px;
+	height: 50px;
+	background-color: #3F5B0E;
+
+}
+
+#menu ul {
+	padding-top: 15px;
+	padding-left: 60px;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	font-size: 15px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	padding: 15px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#datos {
+	background-color: #B9DE5B;
+	width: 100%;
+	height: 50px;
+	padding: 1px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#datos h1 {
+	padding: 1px;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+}
+
+#Relevamiento {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 200px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	margin-left: 150px;
+}
+
+#Relevamiento h1 {
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 20px;
+}
+
+#Relevamiento img {
+	display: none;
+}
+#paleta2 {
+	display: none;
+}
+
+#Relevamiento a {
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	margin-left: 100px;
+	margin-left: 70px;
+}
+
+
+#Diseño {
+	width: 50%;
+	background-color: #B9DE5B;
+	height: 500px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	margin-left: 150px;
+}
+
+#Diseño h1 {
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+
+#titulos {
+	background-color: #ffffff;
+	padding: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 14px;
+
+}
+
+#Texto {
+	background-color: #DBF48E;
+	padding: 40px;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#Diseño img {
+	display: none;
+	}
+
+#paleta {
+	margin-left: 100px;
+}
+
+#Galeria {
+	width: 600px;
+	background-color: #B9DE5B;
+	padding: 2px;
+	height: 500px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+	overflow: auto;
+}
+#Galeria h1 {
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+#imagenes {
+	padding-left: 10px;
+}
+
+footer {
+
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 20px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-left: 210px;
+	margin-top: -50px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 15px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 60px;
+	padding-top: 10px;
+	filter: invert ;
+}
+
+#serie {
+	margin-left: 450px;
+	margin-top: -40px;
+}
+}
